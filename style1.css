@@ -1,0 +1,257 @@
+body{
+    font-family: "Monstserrat", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+a, a:hover {
+    text-decoration: none;
+}
+
+#topbar{
+    background-color: #15477A;
+    color: #fff;
+    margin-top: auto;
+    height: auto;
+}
+
+.top-contact, .sosmed{
+    list-style: none;
+    padding: 5px;
+}
+
+#topbar li{
+    display: inline-block;
+}
+
+#topbar li a{
+    color: #fff;
+    display: inline-block;
+    padding: 0 0 10px;
+
+}
+
+#topbar li a i {
+    color: #F2C808;
+    margin-right: 5px;
+}
+#topbar .sosmed li a i{
+    color: #fff;
+    margin-right: 5px;
+}
+
+#topbar .sosmed li a{
+    color: #fff;
+    padding: 0 0;
+}
+
+/* css untuk prestasi */
+#prestasi {
+    min-height: 250px;
+}
+#prestasi .col-item-kanan {
+    padding: 20px 30px 20px 20px;
+}
+.col-md-6 img {
+    height: 600px;
+    width: 450px;
+}
+
+.section-item {
+    margin: 70px 0;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    min-height: 260px;
+    overflow: hidden;
+}
+
+
+.section-item-thumbnail {
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+    height: 300px;
+    max-height: 100%;
+}
+
+.section-title {
+    margin-bottom: 90px;
+    text-align: center;
+}
+
+.section-title h2{
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #15477A;
+    font-weight: 600;
+}
+
+.section-title h2:after {
+    position: absolute;
+    content: "";
+    width: 60%;
+    height: 3px;
+    background-color: #F2C808;
+    bottom: -20px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.section-item-title {
+    border-bottom: 1px solid #addd;
+    padding: 20px 0;
+    padding-bottom: 20px;
+}
+
+.section-item-title h3 {
+    font-size: 25px;
+    color: #15477A;
+    line-height: 25px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+
+.section-item-title span {
+    font-size: 12px;
+    color: #666;
+    font-weight: 500;
+}
+.section-item-title span i {
+    margin-right: 5px;
+}
+
+.section-item-title span:first-of-type {
+    margin-right: 15px;
+}
+.section-item-body p {
+    font-size: 12px;
+    line-height: 25px;
+    color: #666;
+    text-align: justify;
+}
+
+/* css untuk footer */
+
+footer {
+    color: #fff;
+    background-color: #15477A;
+    padding: 20px 0;
+    margin-top: 2%;
+}
+footer .footer-col:first-of-type {
+    padding-right: 20px;
+}
+
+footer .brand {
+    display: flex;
+}
+footer .brand img {
+    width: 70px;
+    height: 60px;
+    margin-right: 20px;
+}
+
+footer .brand h1 {
+    font-size: 25px;
+    font-weight: 600;
+    line-height: 25px;
+    text-transform: uppercase;
+}
+footer .tentang {
+    font-size: 14px;
+    line-height: 26px;
+    padding-bottom: 15px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.5);
+}
+footer .sosmed {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer .sosmed li {
+    display: inline-block;
+    margin-right: 15px;
+}
+footer .sosmed li a {
+    color: #fff;
+    border: 1px solid rgba(255, 255, 255, 0.5);
+    display: inline-block;
+    height: 50px;
+    width: 50px;
+    text-align: center;
+    border-radius: 50%;
+    font-size: 20px;
+    line-height: 50px;
+}
+footer .sosmed li a:hover {
+    color: #dadada;
+}
+.footer-col h2 {
+    font-size: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.footer-col .alamat {
+    font-size: 14px;
+    line-height: 25px;
+}
+.footer-col .kontak {
+    list-style: none;
+    padding: 0;
+    font-size: 14px;
+    line-height: 24px;
+}
+.footer-col .kontak li {
+    margin: 10px 0;
+    color: #fff;
+}
+.footer-col .kontak li a {
+    color: #fff;
+}
+
+.footer-col .kontak i {
+    margin-right: 10px;
+    color: #fff;
+}
+
+.footer-col .footer-nav {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.footer-col .footer-nav li {
+    margin: 10px 0;
+}
+
+.footer-col .footer-nav a {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 28px;
+    transition: all 0.5s;
+}
+.footer-col .footer-nav a:hover {
+    border-bottom: 1px dashed #fff;
+}
+
+.footer-copyright .container {
+    border-top: 1px solid rgba(242, 242, 242, 0.25);
+    padding: 10px 0;
+}
+
+.footer-copyright {
+    margin-top: 2%;
+}
+.footer-copyright h6 {
+    font-size: 12px;
+    color: #CECECE;
+    font-weight: 200;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-bottom: -10%;
+}
+.footer-copyright h6 a {
+    color: inherit;
+}
+
+.footer-copyright h6 a:hover {
+    border-bottom: 1px dashed #CECECE;
+}
